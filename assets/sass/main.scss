@@ -1,5 +1,43 @@
 @charset "UTF-8";
 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('../fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Gotham-Bold.svg#6a327a217ddd10461b1acdc4d224fee0') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  700;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/Gotham-Book.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Gotham-Book.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/Gotham-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Gotham-Book.svg#7510147900d23fa3ad697e74bf146ea2') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'themify';
+  src: url('../fonts/themify.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/themify.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/themify.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/themify.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/themify.svg#e434f84c8af9c05379776ecc4a0c244d') format('svg'); /* Legacy iOS */
+
+  font-style:   normal;
+  font-weight:  400;
+}
+
 // Init ------------------------------------
 @import 'a-capella-mixins';
 @import 'a-capella-variables';
@@ -46,6 +84,16 @@
 @import 'javascript/tooltips';
 
 // CUSTOM COMPONENTS -------------------------
+@import 'components/links';
+@import 'layout/helpers';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'layout/blocks';
+@import 'layout/content';
+
+@import 'layout/projects';
+@import 'components/block';
 @import 'layout/article';
 @import 'layout/basic_page';
 @import 'layout/link';

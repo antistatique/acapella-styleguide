@@ -1,0 +1,49 @@
+/*doc
+---
+title: Footer
+name: a-footer
+category: Layout - Footer
+---
+
+```html_example
+<footer>
+  <ul class="links-list">
+    <li><a href="#">Accueil</a></li>
+    <li><a href="#">LPC</a></li>
+    <li><a href="#">Prestations</a></li>
+    <li><a href="#">Projets</a></li>
+  </ul>
+</footer>
+```
+
+*/
+
+footer {
+  background: $wild-sand;
+  position: relative;
+  padding-top: 54px;
+  margin-top: 100px ;
+  &:after {
+    content: '';
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    margin-left: -24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background: $burnt-orange;
+    border: 12px solid $white;
+    box-sizing: initial;
+    transition: all 600ms;
+  }
+}
+
+// fix styles added by module footer_sitemap
+#footer-sitemap ul li {
+  float: none;
+}
+
+.block-footer-sitemap {
+  @include make-md-column(3);
+}
