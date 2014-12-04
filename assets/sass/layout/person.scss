@@ -5,10 +5,13 @@ name: person
 category: A Capella - Person
 ---
 
-Write your comment here
-
-```html_example
-Write your corresponding markup here
-```
+| Field | Type | Full | Teaser |
+|-------|------|:----:|:------:|
+| Title | Text | ✔ | ✔ |
+| Role | Text | ✔ | ✔ |
+| Image | Image | ✔ | ✔ |
+| Body + Excerpt | Body | ✔ |  |
+| Phone | Texte | ✔ |  |
+| Email | Texte | ✔ |  |
 
 */

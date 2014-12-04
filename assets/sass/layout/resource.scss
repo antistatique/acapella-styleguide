@@ -1,14 +1,28 @@
 /*doc
 ---
 title: Resource
-name: resource
+name: a-resource
 category: A Capella - Resource
 ---
 
-Write your comment here
+| Field | Type | Full | Teaser |
+|-------|------|:----:|:------:|
+| Title | Text | ✔ | ✔ |
+| Featured | Boolean | | |
+| Body + Excerpt | Body | ✔ | ✔ |
+| Type | List | ✔ | ✔ |
+| File | File | ✔ | |
+| Link | URL | ✔ | |
 
-```html_example
-Write your corresponding markup here
-```
+*/
+
+/*doc
+---
+title: Teaser Display
+name: b-resource
+category: A Capella - Resource
+---
+
+Refer to [media-list object](components_-_media.html#b-media-list).
 
 */
