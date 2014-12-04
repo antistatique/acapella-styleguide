@@ -1,14 +1,55 @@
 /*doc
 ---
 title: Basic Page
-name: basic-page
+name: a-basic-page
 category: A Capella - Basic Page
 ---
 
-Write your comment here
+| Field | Type | Full | Teaser |
+|-------|------|:----:|:------:|
+| Title | Text | ✔ | ✔ |
+| Featured | Boolean | | |
+| Featured Text | Text | | ✔ |
+| Featured Link | Boolean | | |
+| Image | Image | ✔ | ✔ |
+| Body + Excerpt | Body | ✔ | ✔ |
+| Images | Image | ✔ | ✔ |
+| Resources | Entity Reference (multiple) | ✔ | |
+| Partners | Entity Reference (multiple) | ✔ | |
+
+*/
+
+/*doc
+---
+title: Full Display
+name: b-basic-page
+category: A Capella - Basic Page
+---
 
 ```html_example
-Write your corresponding markup here
+<div class="jumbotron">
+  <div class="image-container narrow">
+    <img src="http://lorempixel.com/800/200/cats" alt="">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Nous favorisons l'intégration des sourds et malentendants</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="spacer"></div>
+      <div class="content">
+        <p>La Fondation a capella est une institution de droit suisse, dont le siège est à Genève. Elle est inscrite au Registre du Commerce de Genève et soumise au contrôle de l’Office fédéral de surveillance des fondations. Elle exerce ses activités principalement en Suisse romande. Elle n’a aucun caractère politique ou confessionnel.</p>
+        <p>Finalement, elle n’a aucun but lucratif et a obtenu en 2012 le renouvellement de sa reconnaissance d’utilité publique pour une durée de 10 ans. Elle est donc exonérée d’impôts, de même que les montants qui lui sont confiés par nos donateurs.</p>
+      </div>
+    </div>
+  </div>
+</div>
 ```
 
 */
