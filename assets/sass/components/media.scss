@@ -13,8 +13,8 @@ category: Components - Media
     <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
   </a>
   <div class="media-body">
-    <h4 class="media-heading">Media heading</h4>
-    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    <p class="media-heading"><a href="#">Media heading</a></p>
+    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
   </div>
 </div>
 <div class="media">
@@ -22,15 +22,15 @@ category: Components - Media
     <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
   </a>
   <div class="media-body">
-    <h4 class="media-heading">Media heading</h4>
-    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+    <p class="media-heading"><a href="#">Media heading</a></p>
+    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
     <div class="media">
       <a class="pull-left" href="#">
         <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
       </a>
       <div class="media-body">
-        <h4 class="media-heading">Nested media heading</h4>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        <p class="media-heading"><a href="#">Nested media heading</a></p>
+        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
       </div>
     </div>
   </div>
@@ -51,27 +51,45 @@ category: Components - Media
   <ul class="media-list">
     <li class="media">
       <a class="pull-left" href="#">
-        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+        <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
       </a>
       <div class="media-body">
-        <h4 class="media-heading">Media heading</h4>
+        <p class="media-heading"><a href="#">Media heading</a></p>
+        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+      </div>
+    </li>
+    <li class="media">
+      <a class="pull-left" href="#">
+        <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+      </a>
+      <div class="media-body">
+        <p class="media-heading"><a href="#">Media heading</a></p>
+        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+      </div>
+    </li>
+    <li class="media">
+      <a class="pull-left" href="#">
+        <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+      </a>
+      <div class="media-body">
+        <p class="media-heading"><a href="#">Media heading</a></p>
         <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
         <!-- Nested media object -->
         <div class="media">
           <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+            <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
           </a>
           <div class="media-body">
-            <h4 class="media-heading">Nested media heading</h4>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+            <p class="media-heading"><a href="#">Nested media heading</a></p>
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
             <!-- Nested media object -->
             <div class="media">
               <a class="pull-left" href="#">
-                <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+                <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
               </a>
               <div class="media-body">
-                <h4 class="media-heading">Nested media heading</h4>
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                <p class="media-heading"><a href="#">Nested media heading</a></p>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
               </div>
             </div>
           </div>
@@ -79,24 +97,47 @@ category: Components - Media
         <!-- Nested media object -->
         <div class="media">
           <a class="pull-left" href="#">
-            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+            <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
           </a>
           <div class="media-body">
-            <h4 class="media-heading">Nested media heading</h4>
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+            <p class="media-heading"><a href="#">Nested media heading</a></p>
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
           </div>
         </div>
       </div>
     </li>
     <li class="media">
       <a class="pull-right" href="#">
-        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
+        <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
       </a>
       <div class="media-body">
-        <h4 class="media-heading">Media heading</h4>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+        <p class="media-heading"><a href="#">Media heading</a></p>
+        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
       </div>
     </li>
   </ul>
 ```
 */
+
+.media-heading {
+  font-family: $font-family-headings;
+  margin-bottom: 0;
+}
+
+.media-body {
+  border-bottom: 1px solid $chrome-white;
+  padding-bottom: 9px;
+  margin-bottom: 8px;
+  .media-body {
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.media {
+  img {
+    max-width: 64px;
+    height: auto;
+  }
+}

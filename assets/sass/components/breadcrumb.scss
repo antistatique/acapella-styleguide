@@ -9,9 +9,14 @@ category: Components - Breadcrumb
 
 ```html_example
 <ol class="breadcrumb">
-  <li><a href="#">Home</a></li>
-  <li><a href="#">Library</a></li>
-  <li class="active">Data</li>
+  <li><a href="#">Projets</a></li>
+  <li class="active">Stage d’été 2014 du 20 au 26 Juillet à Charmey</li>
 </ol>
 ```
 */
+
+.breadcrumb {
+  & > li + li:before {
+    color: $text-color;
+  }
+}

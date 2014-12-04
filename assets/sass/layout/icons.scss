@@ -219,3 +219,85 @@ Just use the `glyphicon` class followed by the specific icon class.
 |  <span class="glyphicon glyphicon-tree-conifer"></span>            |  <pre>glyphicon glyphicon-tree-conifer</pre>           |
 |  <span class="glyphicon glyphicon-tree-deciduous"></span>          |  <pre>glyphicon glyphicon-tree-deciduous</pre>         |
 */
+
+
+/*doc
+---
+title: Themify Icons
+name: b-icons-themify
+category: Layout - Icons
+---
+
+Just use the `themify` class followed by the specific icon class.
+
+```html_example
+<a href="#">
+  <span class="themify themify-write"></span> Search
+</a>
+```
+
+
+|  Icon                                                              |  Class                                                 |
+|--------------------------------------------------------------------|--------------------------------------------------------|
+|  <span class="themify themify-write"></span>                |  <pre>themify themify-write</pre>               |
+|  <span class="themify themify-shout"></span>                    |  <pre>themify themify-shout</pre>                   |
+|  <span class="themify themify-letter"></span>                    |  <pre>themify themify-letter</pre>                   |
+|  <span class="themify themify-video"></span>                    |  <pre>themify themify-video</pre>                   |
+|  <span class="themify themify-chevalet"></span>                    |  <pre>themify themify-chevalet</pre>                   |
+|  <span class="themify themify-mic"></span>                    |  <pre>themify themify-mic</pre>                   |
+|  <span class="themify themify-search"></span>                    |  <pre>themify themify-search</pre>                   |
+|  <span class="themify themify-done"></span>                    |  <pre>themify themify-done</pre>                   |
+|  <span class="themify themify-award"></span>                    |  <pre>themify themify-award</pre>                   |
+*/
+
+.themify {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'themify';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+$icon-list: (
+  write                  '\e626',
+  shout                  '\e64f',
+  letter                 '\e6a6',
+  video                  '\e6ce',
+  chevalet               '\e654',
+  mic                    '\e68d',
+  search                 '\e610',
+  done                   '\e64c',
+  award                  '\e641'
+  );
+
+@each $value in $icon-list {
+  .themify-#{nth($value, 1)}:before {content: nth($value, 2);}
+}
+
+/*doc
+---
+title: Themify Badges
+name: c-badges-themify
+category: Layout - Icons
+---
+
+```html_example
+<span class="themify themify-badge ac-green themify-write"></span>
+<span class="themify themify-badge ac-rose themify-video"></span>
+<span class="themify themify-badge ac-blue themify-chevalet"></span>
+<span class="themify themify-badge ac-orange themify-mic"></span>
+```
+*/
+
+.themify-badge {
+  width: 56px;
+  height: 56px;
+  border-radius: 56px;
+  text-align: center;
+  color: $white;
+  font-size: 24px;
+  padding-top: 17px;
+}

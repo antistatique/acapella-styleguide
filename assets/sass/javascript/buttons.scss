@@ -24,6 +24,22 @@ category: JavaScript - Buttons JS
 ```
 */
 
+.input-group-sm>.input-group-btn>.btn {
+  height: 30px;
+}
+
+.form-type-bef-link {
+  display: inline-block;
+  a {
+    @extend .btn;
+    @extend .btn-xs;
+    @extend .btn-default;
+    font-family: $font-family-headings;
+  }
+  &.selected a {
+    @extend .btn-primary;
+  }
+}
 
 
 /*doc

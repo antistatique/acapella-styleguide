@@ -90,14 +90,26 @@ category: Components - Input groups
 ---
 
 ```html_example
-<div class="input-group">
-  <span class="input-group-btn">
-    <button class="btn btn-primary" type="button">Go</button>
-  </span>
-  <input type="text" class="form-control">
+<div class="bg-chrome-white">
+  <div class="input-group">
+    <input type="text" class="form-control">
+    <span class="input-group-btn">
+      <button class="btn btn-primary" type="button">Ok</button>
+    </span>
+  </div>
 </div>
 ```
 */
+
+.input-group-btn {
+  .btn {
+    padding-top: 11px;
+    line-height: 1.2;
+    font-family: $font-family-sans-serif;
+    font-weight: 400;
+    z-index: 2;
+  }
+}
 
 
 
