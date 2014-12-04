@@ -1,14 +1,91 @@
 /*doc
 ---
 title: Article
-name: article
+name: a-article
 category: A Capella - Article
 ---
 
-Write your comment here
+Content type **Article**. It's basically a blog entry.
+
+| Field | Type | Full | Teaser |
+|-------|------|:----:|:------:|
+| Title | Text | ✔ | ✔ |
+| Featured | Boolean | | |
+| Publication Date | Date | ✔ | ✔ |
+| Image | Image | ✔ | |
+| Featured Image | Image | ✔ | ✔ |
+| Body + Excerpt | Body | ✔ | ✔ |
+| Images | Image (multiple) | ✔ | |
+| Tags | Term Reference (multiple) | ✔ | |
+| Resources | Entity Reference (multiple) | ✔ | |
+| Partners | Entity Reference (multiple) | ✔ | |
+
+*/
+
+/*doc
+---
+title: Full Display
+name: b-article-full
+category: A Capella - Article
+---
 
 ```html_example
-Write your corresponding markup here
+<div class="jumbotron">
+  <div class="image-container narrow">
+    <img src="http://lorempixel.com/800/200/cats" alt="">
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <h1>Conférence sur le cerveau</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="spacer"></div>
+      <p class="text-muted">
+        Posté le <span class="date-display-single">9 Octobre 2014</span>
+      </p>
+      <div class="content">
+        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+          <div class="field-items">
+            <div class="field-item even">
+              <p>Au cours d'une conférence, la Prof. XXX a réaffirmé l'utilité du LPC chez les enfants implantés.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+
+*/
+
+/*doc
+---
+title: Teaser Display
+name: c-article-teaser
+category: A Capella - Article
+---
+
+```html_example
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail thumbnail-news">
+
+  <a href="#" class="clearfix">
+      <img src="http://lorempixel.com/800/200/cats" alt="">
+      <div class="caption">
+        <p class="text-lowercase text-vivid-violet"><span class="date-display-single">9 Octobre 2014</span></p>
+        <h3>Conférence sur le cerveau</h3>
+        <p>Au cours d'une conférence.</p>
+      </div>
+    </a>
+  </div>
+</div>
 ```
 
 */
