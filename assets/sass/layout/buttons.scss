@@ -33,11 +33,9 @@ category: Layout - Buttons
 }
 
 .btn-default {
-  font-family: $font-family-base;
-  font-weight: 400;
   box-shadow: 0 2px 0 darken($pampas, 30%);
   &:hover {
-    background-color: $silver-rust;
+    background-color: darken($tundora, 20%);
     box-shadow: 0 2px 0 darken($silver-rust, 30%);
   }
   &:active {
