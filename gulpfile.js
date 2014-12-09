@@ -100,10 +100,10 @@ gulp.task('styles', function() {
          }
       }))
     // .pipe($.if(!argv.production, $.sourcemaps.init()))
-    // .pipe($.autoprefixer({
-    //   browsers: ['last 2 versions', 'safari 5', 'ie 8', 'ie 9', 'ff 27', 'opera 12.1'],
-    //   cascade: false
-    // }))
+    .pipe($.autoprefixer({
+      browsers: ['last 2 versions', 'safari 5', 'ie 8', 'ie 9', 'ff 27', 'opera 12.1'],
+      cascade: false
+    }))
     .pipe($.if(argv.production, $.minifyCss()))
     // .pipe($.if(!argv.production, $.sourcemaps.write('.')))
     .pipe(gulp.dest('build/css'));
