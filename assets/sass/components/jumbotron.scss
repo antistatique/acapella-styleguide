@@ -12,10 +12,14 @@ category: Components - Jumbotron
   <div class="image-container">
     <img src="img/header-image.jpg" alt="Alt">
   </div>
-  <div class="container">
-    <div class="col-md-8">
-      <h1>Favoriser l’intégration des sourds et malentendants avec l’aide du LPC</h1>
-      <p><a class="btn btn-primary" role="button">En savoir plus</a></p>
+  <div class="jumbotron-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>Favoriser l’intégration des sourds et malentendants avec l’aide du LPC</h1>
+          <p><a class="btn btn-primary" role="button">En savoir plus</a></p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -32,26 +36,25 @@ category: Components - Jumbotron
     width: 100%;
     height: auto;
   }
+  @media only screen and (min-width: $screen-sm-min) {
+    .jumbotron-container {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  }
   .container, .container-fluid {
     position: relative;
     z-index: 10;
     @media only screen and (max-width: $screen-xs-max) {
       background: $vivid-violet;
     }
-    > div {
-      @media only screen and (min-width: $screen-sm-min) {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: 15px;
-      }
-    }
   }
   h1 {
     text-shadow: 0 0 8px $vivid-violet;
     font-size: $font-size-h1;
     @media only screen and (max-width: $screen-xs-max) {
-      font-size: $font-size-h1/2;
+      font-size: $font-size-h1/1.5;
     }
   }
   .image-container {
