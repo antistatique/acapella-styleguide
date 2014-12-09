@@ -56,6 +56,7 @@ gulp.task('vendors', function() {
    * Important to add the bootstrap fonts to avoid issues with the fonts include path
    */
   gulp.src([
+      'bower_components/font-awesome/fonts/*',
       'bower_components/bootstrap-sass-official/assets/fonts/bootstrap/*',
       'assets/fonts/*'
     ])
@@ -169,13 +170,13 @@ gulp.task('serve', ['styles', 'scripts', 'twig'], function () {
   gulp.watch(['assets/js/**/*.js'], function() {
     runSequence('scripts', reload);
   });
-  
+
   gulp.watch(['assets/pages/**/*'], function() {
     // clean folder before compiling
     del.bind(null, ['styleguide/pages'])
     runSequence('twig', reload);
   });
-  
+
 });
 
 /**
