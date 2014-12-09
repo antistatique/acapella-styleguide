@@ -23,6 +23,57 @@ name: b-resource
 category: A Capella - Resource
 ---
 
-Refer to [media-list object](components_-_media.html#b-media-list).
+```html_example
+<ul class="media-list">
+  <li class="media">
+    <a class="media-left" href="#">
+      <span class="themify themify-badge ac-green themify-write"></span>
+    </a>
+    <div class="media-body">
+      <p class="media-heading"><a href="#">Media heading</a></p>
+      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+    </div>
+  </li>
+  <li class="media">
+    <a class="media-left" href="#">
+      <span class="themify themify-badge ac-rose themify-video"></span>
+    </a>
+    <div class="media-body">
+      <p class="media-heading"><a href="#">Media heading</a></p>
+      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+    </div>
+  </li>
+</ul>
+```
+
+*/
+
+/*doc
+---
+title: Full Display
+name: c-resource
+category: A Capella - Resource
+---
+
+```html_example
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="media">
+      <div class="media-left">
+        <span class="themify themify-badge ac-green themify-write"></span>
+      </div>
+      <div class="media-body">
+        <h1 class="media-heading">Brochure "un enfant sourd dans votre classe"</h1>
+        <p>Brochure éditée par la Fondation a capella, mise à disposition des enseignants, étudiants et toute personne intéressée au LPC, différents éléments théoriques et pratiques relatifs à l'intégration scolaire d'un enfant ou jeune sourd ou malentendant.</p>
+        <p>La brochure peut être commandée à la Fondation a capella. </p>
+        <p class="text-muted">
+          <strong>Fichiers:&nbsp;</strong>
+          <img class="file-icon" alt="" title="application/pdf" src="../img/application-pdf.png"> <a href="#" type="application/pdf">un_eleve_sourd_dans_votre_classe.pdf</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+```
 
 */
