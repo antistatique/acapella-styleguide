@@ -29,17 +29,19 @@ category: A Capella - Basic Page
 ```html_example
 <div class="jumbotron">
   <div class="image-container narrow">
-    <img src="http://loremflickr.com/800/200/people,happy/all" alt="">
+    <img src="http://loremflickr.com/900/400/people,happy/all" alt="">
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h1>Nous favorisons l'intégration des sourds et malentendants</h1>
+  <div class="jumbotron-container">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1>Nous favorisons l'intégration des sourds et malentendants</h1>
+        </div>
       </div>
     </div>
   </div>
 </div>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-8 col-md-offset-2">
       <div class="spacer"></div>
@@ -49,6 +51,29 @@ category: A Capella - Basic Page
       </div>
     </div>
   </div>
+</div>
+```
+
+*/
+
+/*doc
+---
+title: Teaser Display
+name: c-basic-page
+category: A Capella - Basic Page
+---
+
+```html_example
+<div class="col-sm-6">
+  <div class="thumbnail">
+    <a href="#"><img src="http://loremflickr.com/600/300/people,happy/all" alt="Some cats image"></a>
+    <div class="caption">
+      <h3><a href="#">Stage d’été 2014</a></h3>
+      <p>Après plusieurs années, le stage d’été a retrouvé place dans l’agenda de l’ALPC. Des moments d’apprentissage en alternance avec des moments de loisir et d’échanges avec les autres.</p>
+      <p><a href="#" class="btn btn-success" role="button">Faire un don</a> <a href="#" class="btn btn-link" role="button">Détails</a></p>
+    </div>
+  </div>
+</div>
 </div>
 ```
 
