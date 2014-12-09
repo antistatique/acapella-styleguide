@@ -1,7 +1,7 @@
 /*doc
 ---
 title: Link
-name: link
+name: a-link
 category: A Capella - Link
 ---
 
@@ -10,5 +10,18 @@ category: A Capella - Link
 | Title | Text | ✔ | ✔ |
 | Link | URL | ✔ | ✔ |
 | Body + Excerpt | Body | ✔ | ✔ |
+
+*/
+
+/*doc
+---
+title: Teaser Display
+name: b-link
+category: A Capella - Link
+---
+
+```html_example
+<a href="#">Link</a>
+```
 
 */
