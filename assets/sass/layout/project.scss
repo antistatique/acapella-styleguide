@@ -57,6 +57,15 @@ category: A Capella - Project
   bottom: 0;
 }
 
+.project-partners {
+  .field-label {
+    @include make-sm-column(12);
+  }
+  .field-partners {
+    margin: 15px 0;
+  }
+}
+
 /*doc
 ---
 title: Full Display
