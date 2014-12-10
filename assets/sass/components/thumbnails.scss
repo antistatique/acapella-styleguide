@@ -138,12 +138,6 @@ category: Components - Thumbnails
       }
     }
   }
-  @media only screen and (min-width: $screen-sm-min) {
-    .caption > p:last-child {
-      position: absolute;
-      bottom: 0;
-    }
-  }
 }
 
 .thumbnail-news {
