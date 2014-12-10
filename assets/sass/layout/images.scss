@@ -45,3 +45,7 @@ category: Layout - Images
 <img src="http://loremflickr.com/150/150/people,happy/all" alt="Some cats image" class="img-thumbnail">
 ```
 */
+
+.img-circle img {
+  @extend .img-circle;
+}
