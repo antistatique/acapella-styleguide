@@ -119,7 +119,6 @@ category: Components - Thumbnails
   a:not(.btn) {
     color: $tundora;
     transition: all 200ms;
-    display: block;
     h3, img {transition: all 300ms;}
     &:hover {
       &, h3 {
@@ -133,7 +132,7 @@ category: Components - Thumbnails
 
 .thumbnail-news {
   padding-bottom: 0;
-  &:hover { box-shadow: 0 0 10px 2px lighten($gray-light, 10%); }
+  &:hover { box-shadow: 0 0 20px 2px lighten($gray-light, 10%); }
   a {
     @media only screen and (min-width: $screen-sm-min) {
       min-height: 440px;
