@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Home-banner
+name: home-banner
+category: Components - Home-banner
+---
+
+```html_example
+<div class="home-banner">
+	<h4>Langage parlé complété ou LPC,<br>qu’est-ce que c’est ?</h4>
+	<button type="button" class="btn btn-success btn-sm">Découvrir le LPC</button>
+</div>
+```
+*/
+
+.home-banner{
+	background: url(../img/hand-banner.png) no-repeat center center;
+	height: 160px;
+	h4{
+		text-align: center;
+		color: #fff;
+		padding-top: 52px;
+		line-height: 1.4;
+	}
+	button{
+		display: block;
+		margin: 15px auto 0;
+	}
+}
