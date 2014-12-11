@@ -49,3 +49,7 @@ category: Layout - Images
 .img-circle img {
   @extend .img-circle;
 }
+
+.img-responsive img {
+  @extend .img-responsive;
+}
