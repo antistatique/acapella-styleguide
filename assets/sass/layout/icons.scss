@@ -285,10 +285,12 @@ category: Layout - Icons
 ---
 
 ```html_example
-<span class="themify themify-badge ac-green themify-write"></span>
-<span class="themify themify-badge ac-rose themify-video"></span>
-<span class="themify themify-badge ac-blue themify-chevalet"></span>
-<span class="themify themify-badge ac-orange themify-mic"></span>
+<div class="icons-badges">
+	<span class="themify themify-badge ac-rose themify-done"></span>
+	<span class="themify themify-badge ac-green themify-video"></span>
+	<span class="themify themify-badge ac-blue themify-chevalet"></span>
+	<span class="themify themify-badge ac-orange themify-mic"></span>
+</div>
 ```
 */
 
@@ -300,4 +302,13 @@ category: Layout - Icons
   color: $white;
   font-size: 24px;
   padding-top: 17px;
+}
+
+.icons-badges .ac-rose{
+	background: $brand-primary url(../img/adobe.svg) no-repeat center center;
+	background-size: 20px;
+}
+
+.icons-badges .themify-done:before{
+	color: transparent;
 }
