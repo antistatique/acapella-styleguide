@@ -120,7 +120,10 @@ category: Components - Media
 */
 
 .media-heading {
-  &, h5 {
+  h1, h5 {
+    @extend .media-heading;
+  }
+  h5 {
     font-family: $font-family-sans-serif;
     margin-bottom: 0;
   }
@@ -135,6 +138,9 @@ category: Components - Media
     border: none;
     padding-bottom: 0;
     margin-bottom: 0;
+  }
+  .media-list & {
+    width: auto;
   }
 }
 

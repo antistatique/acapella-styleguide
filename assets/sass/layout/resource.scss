@@ -48,6 +48,13 @@ category: A Capella - Resource
 
 */
 
+// drupal specific classes and styling
+.project-resources .field-resources:last-child {
+  .media-body {
+    border-bottom: none;
+  }
+}
+
 /*doc
 ---
 title: Full Display
