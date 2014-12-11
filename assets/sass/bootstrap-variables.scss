@@ -38,7 +38,7 @@ $body-bg:               #fff !default;
 $text-color:            $gray-dark !default;
 
 //** Global textual link color.
-$link-color:            $pacific-blue !default;
+$link-color:            $vivid-violet !default;
 //** Link hover color set via `darken()` function.
 $link-hover-color:      darken($link-color, 15%) !default;
 
@@ -859,4 +859,6 @@ $component-offset-horizontal: 180px !default;
 
 //** Width of horizontal description list titles
 $dl-horizontal-offset:        $component-offset-horizontal !default;
-$link-hover-decoration:      darken($link-color, 15%) !default;
+
+
+$link-hover-decoration:      underline !default;
