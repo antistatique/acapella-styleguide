@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Content-banner
+name: content-banner
+category: Components - Content-banner
+---
+
+```html_example
+<div class="row content-banner">
+  <div class="radial-upgradient"></div>
+  <div class="col-md-9">
+    <h3>Vous êtes intéressé(e) par ce projet ?</h3>
+    <small>Parent d’un enfant sourd ou professionnel de la surdité, pour plus de renseignements...</small>
+  </div>
+  <div class="col-md-3">
+    <button type="button" class="btn btn-primary btn-xs">Contactez-nous</button>
+  </div>
+</div>
+```
+*/
+
+.content-banner {
+  position: relative;
+  padding: 30px 0px;
+  overflow: hidden;
+  .radial-upgradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -50px;
+    background: radial-gradient(ellipse at center,  rgba(233,229,224,1) 0%,rgba(255,255,255,0.45) 55%,rgba(255,255,255,0) 100%);
+  }
+  h3 {
+    margin-bottom: 0;
+    margin-top: 0;
+    color: $pompadour;
+  }
+  small {
+    color: $tundora;
+  }
+  .col-md-3 {
+    padding-top: 10px;
+    button {
+      float: right;
+    }
+  }
+}

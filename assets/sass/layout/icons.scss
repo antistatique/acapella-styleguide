@@ -270,7 +270,8 @@ $icon-list: (
   mic                    '\e68d',
   search                 '\e610',
   done                   '\e64c',
-  award                  '\e641'
+  award                  '\e641',
+  adobe                  '\e748'
   );
 
 @each $value in $icon-list {
@@ -285,10 +286,12 @@ category: Layout - Icons
 ---
 
 ```html_example
-<span class="themify themify-badge ac-green themify-write"></span>
-<span class="themify themify-badge ac-rose themify-video"></span>
-<span class="themify themify-badge ac-blue themify-chevalet"></span>
-<span class="themify themify-badge ac-orange themify-mic"></span>
+<div class="icons-badges">
+	<span class="themify themify-badge ac-rose themify-adobe"></span>
+	<span class="themify themify-badge ac-green themify-video"></span>
+	<span class="themify themify-badge ac-blue themify-chevalet"></span>
+	<span class="themify themify-badge ac-orange themify-mic"></span>
+</div>
 ```
 */
 
@@ -299,5 +302,5 @@ category: Layout - Icons
   text-align: center;
   color: $white;
   font-size: 24px;
-  padding-top: 17px;
+  padding-top: 15px;
 }
