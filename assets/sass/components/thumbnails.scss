@@ -168,8 +168,10 @@ category: Components - Thumbnails
   }
 }
 
-.thumbnail-news-height {
-  min-height: 502px;
+@media only screen and (min-width: $screen-md-min) {
+  .thumbnail-news-height {
+    min-height: 502px;
+  }
 }
 
 .thumbnail-overlay {
