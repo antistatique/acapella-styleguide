@@ -109,7 +109,7 @@ category: Components - Thumbnails
   .caption {
     padding: 0;
     transition: all 300ms;
-    @media only screen and (min-width: $screen-md-min) {
+    @media only screen and (min-width: $screen-sm-min) {
       min-height: 300px;
     }
     position: relative;
@@ -145,7 +145,7 @@ category: Components - Thumbnails
     }
   }
   .caption {
-    @media only screen and (min-width: $screen-md-min) {
+    @media only screen and (min-width: $screen-sm-min) {
       min-height: 260px;
     }
     padding: 15px;
