@@ -51,10 +51,11 @@ category: A Capella - Project
 ```
 
 */
-
-.project-btns {
-  position: absolute;
-  bottom: 0;
+@media only screen and (min-width: $screen-md-min) {
+  .project-btns {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 .project-partners {
