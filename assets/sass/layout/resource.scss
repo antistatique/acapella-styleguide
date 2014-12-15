@@ -52,7 +52,8 @@ category: A Capella - Resource
 */
 
 // drupal specific classes and styling
-.project-resources .field-resources:last-child {
+.media-resources .views-row-last,
+.media-resources .field-resources:last-child {
   .media-body {
     border-bottom: none;
   }
