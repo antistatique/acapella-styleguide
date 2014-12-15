@@ -84,14 +84,16 @@ category: Components - Navbar
     padding-bottom: 0;
     &.last {
       padding-right: 0;
+      .btn {
+        margin-top: -6px;
+      }
     }
   }
   & > a:not(.btn) {
     position: relative;
     transition: all 200ms;
     font-size: 18px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 4px 0;
     &:after {
       content: '';
       position: absolute;
@@ -163,7 +165,7 @@ category: Components - Navbar
   padding: 0;
   border: 0;
   border-radius: 0;
-  top: 46px;
+  top: 34px;
   &:hover {
     display: block;
   }
