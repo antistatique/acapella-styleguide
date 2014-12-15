@@ -44,6 +44,12 @@ category: Components - Navbar
   }
 }
 
+.navbar-collapse {
+  &.in {
+    overflow: visible;
+  }
+}
+
 .navbar-toggle {
   border: 1px solid $outrageous-orange;
   transition: all 400ms;
@@ -65,9 +71,7 @@ category: Components - Navbar
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
-  text-align: center;
   @media only screen and (min-width: $screen-sm-min) {
-    text-align: left;
     padding-bottom: 0;
     &.last {
       padding-right: 0;
@@ -128,7 +132,7 @@ category: Components - Navbar
 }
 
 .main-navigation {
-  @media only screen and (min-width: $screen-sm-min) {
+  @media only screen and (min-width: $screen-md-min) {
     float: right;
   }
 }
@@ -142,11 +146,15 @@ category: Components - Navbar
 }
 
 .dropdown-menu {
-  right: 15px;
-  left: auto;
+  @media only screen and (min-width: $screen-md-min) {
+    right: 15px;
+    left: auto;
+  }
+  @media only screen and (max-width: $screen-sm-max) {width: 100%;}
   padding: 0;
   border: 0;
   border-radius: 0;
+  top: 46px;
   &:hover {
     display: block;
   }
@@ -159,6 +167,7 @@ category: Components - Navbar
       border-left: 2px solid #fff;
       transition: all 300ms;
       color: $link-color;
+      padding: 10px 20px;
       &:hover {
         border-color: $burnt-orange;
       }
