@@ -1,0 +1,55 @@
+/*doc
+---
+title: Partner
+name: a-partner
+category: A Capella - Partner
+---
+
+| Field | Type | Full | Teaser |
+|-------|------|:----:|:------:|
+| Title | Text | ✔ | ✔ |
+| Featured | Boolean | | |
+| Type | Term Reference | | |
+| Lien | URL | ✔ | ✔ |
+| Image | Image | ✔ | ✔ |
+| Body + Excerpt | Body | ✔ | ✔ |
+| Donations | Field Collection | ✔ | |
+
+## Field Collection
+
+| Field | Type | Full |
+|-------|------|:----:|
+| Date | Date | ✔ |
+| Amount | Decimal | ✔ |
+
+*/
+
+/*doc
+---
+title: Full Display
+name: b-partner
+category: A Capella - Partner
+---
+
+```html_example
+<div class="row partners">
+  <div class="col-sm-4">
+    <img src="http://placehold.it/150x100" alt="#">
+  </div>
+</div>
+```
+
+*/
+
+.field-partner-image a {
+  min-height: 100px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
