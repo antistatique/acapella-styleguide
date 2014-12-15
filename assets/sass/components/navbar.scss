@@ -48,6 +48,11 @@ category: Components - Navbar
   &.in {
     overflow: visible;
   }
+  .secondary {
+    li {
+      display: inline-block;
+    }
+  }
 }
 
 .navbar-toggle {

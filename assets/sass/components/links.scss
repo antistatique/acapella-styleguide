@@ -29,16 +29,16 @@ category: Components - Links
     margin-bottom: 0;
     li {
       padding: 0;
-      width: 20%;
       position: relative;
-      @media only screen and (max-width: $screen-xs-max) {
+      @media only screen and (max-width: $screen-sm-max) {
         display: block;
         margin: 0 auto;
         padding: 15px 0;
       }
     }
-    @media only screen and (min-width: $screen-sm-min) {
+    @media only screen and (min-width: $screen-md-min) {
       li {
+        width: 20%;
         &:after {
           content: '';
           position: absolute;
