@@ -49,9 +49,13 @@ category: Components - Navbar
     overflow: visible;
   }
   .secondary {
+    text-align: center;
     li {
       display: inline-block;
     }
+  }
+  .form-control {
+    font-size: 16px;
   }
 }
 
