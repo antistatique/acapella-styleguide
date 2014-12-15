@@ -122,11 +122,12 @@ category: Components - Thumbnails
     color: $tundora;
     transition: all 200ms;
     h3, img {transition: all 300ms;}
+    img {opacity: .85;}
     &:hover {
       color: $brand-primary;
       text-decoration: none;
       &:after { content: none; }
-      img {opacity: .8;}
+      img {opacity: 1;}
     }
   }
 }
