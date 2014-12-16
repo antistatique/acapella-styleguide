@@ -37,6 +37,7 @@ category: Components - Navbar
 */
 
 .nav.secondary {
+  margin-top: 5px;
   > li {
     & > a:not(.btn) {
       font-size: 0.8em;
