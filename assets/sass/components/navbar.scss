@@ -87,6 +87,9 @@ category: Components - Navbar
       padding-right: 0;
       .btn {
         margin-top: -6px;
+        &:active {
+          margin-top: -4px;
+        }
       }
     }
   }
