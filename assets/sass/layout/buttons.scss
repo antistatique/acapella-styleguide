@@ -33,10 +33,10 @@ category: Layout - Buttons
 }
 
 .btn-default {
-  box-shadow: 0 2px 0 darken($pampas, 30%);
+  box-shadow: 0 2px 0 darken($vivid-violet, 10%);
   &:hover {
     background-color: darken($tundora, 20%);
-    box-shadow: 0 2px 0 darken($silver-rust, 30%);
+    box-shadow: 0 2px 0 darken($vivid-violet, 20%);
   }
   &:active {
     box-shadow: none;

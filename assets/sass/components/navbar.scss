@@ -248,7 +248,7 @@ category: Components - Navbar
       <a class="navbar-brand" href="#">Brand</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-      <form class="navbar-form navbar-left" role="search">
+      <form class="search-form navbar-form navbar-left" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
@@ -260,6 +260,14 @@ category: Components - Navbar
 ```
 */
 
+.search-form {
+  .form-control {
+    padding-top: 7px;
+  }
+  .themify-search {
+    top: 2px;
+  }
+}
 
 
 /*doc
