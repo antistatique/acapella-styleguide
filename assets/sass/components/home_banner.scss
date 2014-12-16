@@ -7,10 +7,14 @@ name: home-banner
 category: Components - Home-banner
 ---
 
+Change to `.container` on site.
+
 ```html_example
-<div class="home-banner">
-	<h4>Langage parlé complété ou LPC,<br>qu’est-ce que c’est ?</h4>
-	<button type="button" class="btn btn-success btn-sm">Découvrir le LPC</button>
+<div class="home-banner container-fluid">
+  <a href="#">
+  	<h4>Langage pa rlé complété ou LPC,<br>qu’est-ce que c’est ?</h4>
+  	<span class="btn btn-success btn-sm">Découvrir le LPC</span>
+  </a>
 </div>
 ```
 */
@@ -24,6 +28,10 @@ category: Components - Home-banner
 	  padding-top: 52px;
 	  line-height: 1.4;
 	}
+  a {
+    display: block;
+    text-decoration: none;
+  }
   .btn {
     margin-top: 4px;
   }
