@@ -78,8 +78,8 @@ category: Components - Navbar
 }
 
 .navbar-nav > li {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 15px;
   @media only screen and (min-width: $screen-sm-min) {
     padding-bottom: 0;
@@ -136,6 +136,14 @@ category: Components - Navbar
     &:hover {
       @extend .btn:hover;
       @extend .btn-success:hover;
+    }
+  }
+}
+
+.secondary > li {
+  & > a:not(.btn) {
+    &:after {
+      bottom: 6px;
     }
   }
 }
