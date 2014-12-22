@@ -166,6 +166,15 @@
         
         
       
+        
+        
+      
+        
+        
+      
+        
+        
+      
 
       <nav class="cortana-nav">
         <ul>
@@ -252,10 +261,14 @@
             
           
             
+          
+            
               
               
                 <li><a href="javascript_-_modal.html">Modal</a></li>
               
+            
+          
             
           
             
@@ -307,6 +320,8 @@
               
                 <li><a href="javascript_-_buttons_js.html">Buttons JS</a></li>
               
+            
+          
             
           
             
@@ -424,6 +439,8 @@
             
           
             
+          
+            
               
               
                 <li><a href="components_-_list_group.html">List group</a></li>
@@ -464,6 +481,8 @@
             
           
             
+          
+            
               
               
                 <li><a href="components_-_thumbnails.html">Thumbnails</a></li>
@@ -490,6 +509,18 @@
           
             
           
+            
+              
+              
+                <li><a href="components_-_content-banner.html">Content-banner</a></li>
+              
+            
+          
+            
+              
+              
+                <li><a href="components_-_home-banner.html">Home-banner</a></li>
+              
             
           
             
@@ -560,6 +591,15 @@
             
           
             
+              
+              
+                <li><a href="a_capella_-_link.html">Link</a></li>
+              
+            
+          
+            
+          
+            
           
             
           
@@ -567,6 +607,11 @@
           
             
           
+            
+              
+              
+                <li><a href="a_capella_-_partner.html">Partner</a></li>
+              
             
           
             
@@ -602,10 +647,7 @@
             
           
             
-              
-              
-                <li><a href="a_capella_-_link.html">Link</a></li>
-              
+          
             
           
             
@@ -733,10 +775,16 @@
             
           
             
+          
+            
+          
+            
               
               
                 <li><a href="layout_-_typography.html">Typography</a></li>
               
+            
+          
             
           
             
@@ -783,6 +831,10 @@
             
               
                 <li><a href="#b-resource">Teaser Display</a></li>
+              
+            
+              
+                <li><a href="#c-resource">Full Display</a></li>
               
             
           </ul>
@@ -842,9 +894,85 @@
 </tbody></table>
 
 <h1 id="b-resource">Teaser Display</h1>
-
-<p>Refer to <a href="components_-_media.html#b-media-list">media-list object</a>.</p>
-
+</div><div class="codeExample"><div class="exampleOutput"><ul class="media-list">
+  <li class="media">
+    <a class="media-left" href="#">
+      <span class="themify themify-badge ac-green themify-write"></span>
+    </a>
+    <div class="media-body">
+      <p class="media-heading"><a href="#">Media heading</a></p>
+      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+    </div>
+  </li>
+  <li class="media">
+    <a class="media-left" href="#">
+      <span class="themify themify-badge ac-rose themify-video"></span>
+    </a>
+    <div class="media-body">
+      <p class="media-heading"><a href="#">Media heading</a></p>
+      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.</p>
+    </div>
+  </li>
+</ul>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"media-list"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"media"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"media-left"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"themify themify-badge ac-green themify-write"</span><span class="nt">&gt;&lt;/span&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"media-body"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"media-heading"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Media heading<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+  <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">"media"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"media-left"</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"themify themify-badge ac-rose themify-video"</span><span class="nt">&gt;&lt;/span&gt;</span>
+    <span class="nt">&lt;/a&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"media-body"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"media-heading"</span><span class="nt">&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#"</span><span class="nt">&gt;</span>Media heading<span class="nt">&lt;/a&gt;&lt;/p&gt;</span>
+      <span class="nt">&lt;p&gt;</span>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</pre></div></div></div><div class="cortana-content">
+<h1 id="c-resource">Full Display</h1>
+</div><div class="codeExample"><div class="exampleOutput"><div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="media">
+      <div class="media-left">
+        <span class="themify themify-badge ac-green themify-write"></span>
+      </div>
+      <div class="media-body">
+        <h1 class="media-heading">Brochure "un enfant sourd dans votre classe"</h1>
+        <p>Brochure éditée par la Fondation a capella, mise à disposition des enseignants, étudiants et toute personne intéressée au LPC, différents éléments théoriques et pratiques relatifs à l'intégration scolaire d'un enfant ou jeune sourd ou malentendant.</p>
+        <p>La brochure peut être commandée à la Fondation a capella. </p>
+        <p class="text-muted">
+          <strong>Fichiers:&nbsp;</strong>
+          <img class="file-icon" alt="" title="application/pdf" src="../img/application-pdf.png"> <a href="#" type="application/pdf">un_eleve_sourd_dans_votre_classe.pdf</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-8 col-md-offset-2"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"media"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"media-left"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"themify themify-badge ac-green themify-write"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"media-body"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"media-heading"</span><span class="nt">&gt;</span>Brochure "un enfant sourd dans votre classe"<span class="nt">&lt;/h1&gt;</span>
+        <span class="nt">&lt;p&gt;</span>Brochure éditée par la Fondation a capella, mise à disposition des enseignants, étudiants et toute personne intéressée au LPC, différents éléments théoriques et pratiques relatifs à l'intégration scolaire d'un enfant ou jeune sourd ou malentendant.<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;</span>La brochure peut être commandée à la Fondation a capella. <span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-muted"</span><span class="nt">&gt;</span>
+          <span class="nt">&lt;strong&gt;</span>Fichiers:<span class="ni">&amp;nbsp;</span><span class="nt">&lt;/strong&gt;</span>
+          <span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"file-icon"</span> <span class="na">alt=</span><span class="s">""</span> <span class="na">title=</span><span class="s">"application/pdf"</span> <span class="na">src=</span><span class="s">"../img/application-pdf.png"</span><span class="nt">&gt;</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">type=</span><span class="s">"application/pdf"</span><span class="nt">&gt;</span>un_eleve_sourd_dans_votre_classe.pdf<span class="nt">&lt;/a&gt;</span>
+        <span class="nt">&lt;/p&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</pre></div></div></div><div class="cortana-content">
         </div>
       </div>
     </div>
@@ -1037,6 +1165,14 @@
               "path": "a_capella_-_basic_page.html#b-basic-page"
               },
             
+              
+              
+              {
+              "title": "Teaser Display",
+              "breadcrumb": "A Capella - Basic Page > Teaser Display",
+              "path": "a_capella_-_basic_page.html#c-basic-page"
+              },
+            
           
         
           
@@ -1159,14 +1295,6 @@
               "title": "A Capella colors",
               "breadcrumb": "Layout - Colors > A Capella colors",
               "path": "layout_-_colors.html#b-acapella-colors"
-              },
-            
-              
-              
-              {
-              "title": "Bootflat colors",
-              "breadcrumb": "Layout - Colors > Bootflat colors",
-              "path": "layout_-_colors.html#b-bootfalt-colors"
               },
             
           
@@ -1532,6 +1660,26 @@
               
               
               {
+              "title": "Link",
+              "breadcrumb": "A Capella - Link > Link",
+              "path": "a_capella_-_link.html#a-link"
+              },
+            
+              
+              
+              {
+              "title": "Teaser Display",
+              "breadcrumb": "A Capella - Link > Teaser Display",
+              "path": "a_capella_-_link.html#b-link"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
               "title": "List group",
               "breadcrumb": "Components - List group > List group",
               "path": "components_-_list_group.html#a-list-group"
@@ -1704,6 +1852,26 @@
               
               
               {
+              "title": "Partner",
+              "breadcrumb": "A Capella - Partner > Partner",
+              "path": "a_capella_-_partner.html#a-partner"
+              },
+            
+              
+              
+              {
+              "title": "Full Display",
+              "breadcrumb": "A Capella - Partner > Full Display",
+              "path": "a_capella_-_partner.html#b-partner"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
               "title": "Popover",
               "breadcrumb": "JavaScript - Popover > Popover",
               "path": "javascript_-_popover.html#a-popover"
@@ -1755,6 +1923,14 @@
               "title": "Teaser Display",
               "breadcrumb": "A Capella - Resource > Teaser Display",
               "path": "a_capella_-_resource.html#b-resource"
+              },
+            
+              
+              
+              {
+              "title": "Full Display",
+              "breadcrumb": "A Capella - Resource > Full Display",
+              "path": "a_capella_-_resource.html#c-resource"
               },
             
           
@@ -1996,9 +2172,21 @@
               
               
               {
-              "title": "Link",
-              "breadcrumb": "A Capella - Link > Link",
-              "path": "a_capella_-_link.html#link"
+              "title": "Content-banner",
+              "breadcrumb": "Components - Content-banner > Content-banner",
+              "path": "components_-_content-banner.html#content-banner"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Home-banner",
+              "breadcrumb": "Components - Home-banner > Home-banner",
+              "path": "components_-_home-banner.html#home-banner"
               },
             
           

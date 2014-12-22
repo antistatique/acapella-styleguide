@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>JavaScript - Collapse</title>
+    <title>A Capella - Partner</title>
 
     <!-- Styleguide CSS -->
     <link rel="stylesheet" href="./theme-build/css/vendors.css">
@@ -189,7 +189,7 @@
             
               
               
-                <li><a class="active" href="javascript_-_collapse.html">Collapse</a></li>
+                <li><a href="javascript_-_collapse.html">Collapse</a></li>
               
             
           
@@ -610,7 +610,7 @@
             
               
               
-                <li><a href="a_capella_-_partner.html">Partner</a></li>
+                <li><a class="active" href="a_capella_-_partner.html">Partner</a></li>
               
             
           
@@ -806,7 +806,7 @@
 
     <header class="cortana-header sb-slide">
       
-        <h1>Collapse</h1>
+        <h1>Partner</h1>
       
       <div id="open-left" class="cortana-menu-btn">
         <span></span>
@@ -826,11 +826,11 @@
           <ul bs-scrollspy-list data-offset="-30">
             
               
-                <li><a href="#a-accordion">Accordion</a></li>
+                <li><a href="#a-partner">Partner</a></li>
               
             
               
-                <li><a href="#b-collapse-button">Collapse button</a></li>
+                <li><a href="#b-partner">Full Display</a></li>
               
             
           </ul>
@@ -841,114 +841,91 @@
 
 
 
-<h1 id="a-accordion">Accordion</h1>
-</div><div class="codeExample"><div class="exampleOutput"><div class="panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          Collapsible Group Item #1
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in">
-      <div class="panel-body">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo id est convenienter naturae vivere, a natura discedere. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur; Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba. Duo Reges: constructio interrete.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-          Collapsible Group Item #2
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse">
-      <div class="panel-body">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo id est convenienter naturae vivere, a natura discedere. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur; Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba. Duo Reges: constructio interrete.
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-          Collapsible Group Item #3
-        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo id est convenienter naturae vivere, a natura discedere. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur; Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba. Duo Reges: constructio interrete.
-      </div>
-    </div>
+<h1 id="a-partner">Partner</h1>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th style="text-align: center">Full</th>
+<th style="text-align: center">Teaser</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Title</td>
+<td>Text</td>
+<td style="text-align: center">✔</td>
+<td style="text-align: center">✔</td>
+</tr>
+<tr>
+<td>Featured</td>
+<td>Boolean</td>
+<td style="text-align: center"></td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Type</td>
+<td>Term Reference</td>
+<td style="text-align: center"></td>
+<td style="text-align: center"></td>
+</tr>
+<tr>
+<td>Lien</td>
+<td>URL</td>
+<td style="text-align: center">✔</td>
+<td style="text-align: center">✔</td>
+</tr>
+<tr>
+<td>Image</td>
+<td>Image</td>
+<td style="text-align: center">✔</td>
+<td style="text-align: center">✔</td>
+</tr>
+<tr>
+<td>Body + Excerpt</td>
+<td>Body</td>
+<td style="text-align: center">✔</td>
+<td style="text-align: center">✔</td>
+</tr>
+<tr>
+<td>Donations</td>
+<td>Field Collection</td>
+<td style="text-align: center">✔</td>
+<td style="text-align: center"></td>
+</tr>
+</tbody></table>
+
+<h2>Field Collection</h2>
+
+<table><thead>
+<tr>
+<th>Field</th>
+<th>Type</th>
+<th style="text-align: center">Full</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Date</td>
+<td>Date</td>
+<td style="text-align: center">✔</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>Decimal</td>
+<td style="text-align: center">✔</td>
+</tr>
+</tbody></table>
+
+<h1 id="b-partner">Full Display</h1>
+</div><div class="codeExample"><div class="exampleOutput"><div class="row partners">
+  <div class="col-sm-4">
+    <img src="http://placehold.it/150x100" alt="#">
   </div>
 </div>
-</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-group"</span> <span class="na">id=</span><span class="s">"accordion"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;a</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span> <span class="na">href=</span><span class="s">"#collapseOne"</span><span class="nt">&gt;</span>
-          Collapsible Group Item #1
-        <span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;/h4&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"collapseOne"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse in"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo id est convenienter naturae vivere, a natura discedere. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur; Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba. Duo Reges: constructio interrete.
-      <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row partners"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-sm-4"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://placehold.it/150x100"</span> <span class="na">alt=</span><span class="s">"#"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;a</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span> <span class="na">href=</span><span class="s">"#collapseTwo"</span><span class="nt">&gt;</span>
-          Collapsible Group Item #2
-        <span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;/h4&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"collapseTwo"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo id est convenienter naturae vivere, a natura discedere. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur; Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba. Duo Reges: constructio interrete.
-      <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel panel-default"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-heading"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;h4</span> <span class="na">class=</span><span class="s">"panel-title"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;a</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-parent=</span><span class="s">"#accordion"</span> <span class="na">href=</span><span class="s">"#collapseThree"</span><span class="nt">&gt;</span>
-          Collapsible Group Item #3
-        <span class="nt">&lt;/a&gt;</span>
-      <span class="nt">&lt;/h4&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"collapseThree"</span> <span class="na">class=</span><span class="s">"panel-collapse collapse"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"panel-body"</span><span class="nt">&gt;</span>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ergo id est convenienter naturae vivere, a natura discedere. Partim cursu et peragratione laetantur, congregatione aliae coetum quodam modo civitatis imitantur; Cum id fugiunt, re eadem defendunt, quae Peripatetici, verba. Duo Reges: constructio interrete.
-      <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</pre></div></div></div><div class="cortana-content">
-<h1 id="b-collapse-button">Collapse button</h1>
-</div><div class="codeExample"><div class="exampleOutput"><button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
-  Collapse
-</button>
-
-<br><br>
-
-<div id="demo" class="collapse">
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae enim adhuc protulisti, popularia sunt, ego autem a te elegantiora desidero. Non est igitur voluptas bonum. Teneo, inquit, finem illi videri nihil dolere. Non quam nostram quidem, inquit Pomponius iocans; Non igitur potestis voluptate omnia dirigentes aut tueri aut retinere virtutem. Duo Reges: constructio interrete. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt.
-</div>
-</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-danger"</span> <span class="na">data-toggle=</span><span class="s">"collapse"</span> <span class="na">data-target=</span><span class="s">"#demo"</span><span class="nt">&gt;</span>
-  Collapse
-<span class="nt">&lt;/button&gt;</span>
-
-<span class="nt">&lt;br&gt;&lt;br&gt;</span>
-
-<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"demo"</span> <span class="na">class=</span><span class="s">"collapse"</span><span class="nt">&gt;</span>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae enim adhuc protulisti, popularia sunt, ego autem a te elegantiora desidero. Non est igitur voluptas bonum. Teneo, inquit, finem illi videri nihil dolere. Non quam nostram quidem, inquit Pomponius iocans; Non igitur potestis voluptate omnia dirigentes aut tueri aut retinere virtutem. Duo Reges: constructio interrete. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt.
 <span class="nt">&lt;/div&gt;</span>
 </pre></div></div></div><div class="cortana-content">
         </div>

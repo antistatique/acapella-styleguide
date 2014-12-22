@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>A Capella - Full Display</title>
+    <title>Components - Content-banner</title>
 
     <!-- Styleguide CSS -->
     <link rel="stylesheet" href="./theme-build/css/vendors.css">
@@ -59,6 +59,12 @@
         
         
           
+        
+      
+        
+        
+      
+        
         
       
         
@@ -255,6 +261,8 @@
             
           
             
+          
+            
               
               
                 <li><a href="javascript_-_modal.html">Modal</a></li>
@@ -266,10 +274,16 @@
             
           
             
+          
+            
               
               
                 <li><a href="javascript_-_popover.html">Popover</a></li>
               
+            
+          
+            
+          
             
           
             
@@ -302,14 +316,10 @@
             
           
             
-          
-            
               
               
                 <li><a href="javascript_-_buttons_js.html">Buttons JS</a></li>
               
-            
-          
             
           
             
@@ -429,6 +439,8 @@
             
           
             
+          
+            
               
               
                 <li><a href="components_-_list_group.html">List group</a></li>
@@ -465,6 +477,12 @@
             
           
             
+          
+            
+          
+            
+          
+            
               
               
                 <li><a href="components_-_thumbnails.html">Thumbnails</a></li>
@@ -492,11 +510,17 @@
             
           
             
-          
+              
+              
+                <li><a class="active" href="components_-_content-banner.html">Content-banner</a></li>
+              
             
           
             
-          
+              
+              
+                <li><a href="components_-_home-banner.html">Home-banner</a></li>
+              
             
           
             
@@ -567,41 +591,6 @@
             
           
             
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-          
-            
-              
-              
-                <li><a class="active" href="a_capella_-_full_display.html">Full Display</a></li>
-              
-            
-          
-            
-          
-            
               
               
                 <li><a href="a_capella_-_link.html">Link</a></li>
@@ -609,10 +598,22 @@
             
           
             
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
               
               
-                <li><a href="a_capella_-_person.html">Person</a></li>
+                <li><a href="a_capella_-_partner.html">Partner</a></li>
               
+            
+          
             
           
             
@@ -626,6 +627,33 @@
               
               
                 <li><a href="a_capella_-_resource.html">Resource</a></li>
+              
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+              
+                <li><a href="a_capella_-_person.html">Person</a></li>
               
             
           
@@ -743,14 +771,18 @@
             
           
             
+          
+            
+          
+            
+          
+            
+          
+            
               
               
                 <li><a href="layout_-_typography.html">Typography</a></li>
               
-            
-          
-            
-          
             
           
             
@@ -774,7 +806,7 @@
 
     <header class="cortana-header sb-slide">
       
-        <h1>Full Display</h1>
+        <h1>Content-banner</h1>
       
       <div id="open-left" class="cortana-menu-btn">
         <span></span>
@@ -794,7 +826,7 @@
           <ul bs-scrollspy-list data-offset="-30">
             
               
-                <li><a href="#b-basic-page">Full Display</a></li>
+                <li><a href="#content-banner">Content-banner</a></li>
               
             
           </ul>
@@ -805,67 +837,25 @@
 
 
 
-<h1 id="b-basic-page">Full Display</h1>
-</div><div class="codeExample"><div class="exampleOutput"><div class="jumbotron">
-  <div class="image-container narrow">
-    <img src="http://lorempixel.com/800/200/cats" alt="">
+<h1 id="content-banner">Content-banner</h1>
+</div><div class="codeExample"><div class="exampleOutput"><div class="row content-banner">
+  <div class="radial-upgradient"></div>
+  <div class="col-md-9">
+    <h3>Vous êtes intéressé(e) par ce projet ?</h3>
+    <small>Parent d’un enfant sourd ou professionnel de la surdité, pour plus de renseignements...</small>
   </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h1>Conférence sur le cerveau</h1>
-      </div>
-    </div>
+  <div class="col-md-3">
+    <a href="#" type="button" class="btn btn-primary btn-xs">Contactez-nous</a>
   </div>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
-      <div class="spacer"></div>
-      <p class="text-muted">
-        Posté le <span class="date-display-single">9 Octobre 2014</span>
-      </p>
-      <div class="content">
-        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-          <div class="field-items">
-            <div class="field-item even">
-              <p>Au cours d'une conférence, la Prof. XXX a réaffirmé l'utilité du LPC chez les enfants implantés.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"jumbotron"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"image-container narrow"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"http://lorempixel.com/800/200/cats"</span> <span class="na">alt=</span><span class="s">""</span><span class="nt">&gt;</span>
+</div><div class="codeBlock"><div class="highlight"><pre><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row content-banner"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"radial-upgradient"</span><span class="nt">&gt;&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-9"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h3&gt;</span>Vous êtes intéressé(e) par ce projet ?<span class="nt">&lt;/h3&gt;</span>
+    <span class="nt">&lt;small&gt;</span>Parent d’un enfant sourd ou professionnel de la surdité, pour plus de renseignements...<span class="nt">&lt;/small&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-8 col-md-offset-2"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;h1&gt;</span>Conférence sur le cerveau<span class="nt">&lt;/h1&gt;</span>
-      <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
-  <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"row"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-8 col-md-offset-2"</span><span class="nt">&gt;</span>
-      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"spacer"</span><span class="nt">&gt;&lt;/div&gt;</span>
-      <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"text-muted"</span><span class="nt">&gt;</span>
-        Posté le <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"date-display-single"</span><span class="nt">&gt;</span>9 Octobre 2014<span class="nt">&lt;/span&gt;</span>
-      <span class="nt">&lt;/p&gt;</span>
-      <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"content"</span><span class="nt">&gt;</span>
-        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"field field-name-body field-type-text-with-summary field-label-hidden"</span><span class="nt">&gt;</span>
-          <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"field-items"</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"field-item even"</span><span class="nt">&gt;</span>
-              <span class="nt">&lt;p&gt;</span>Au cours d'une conférence, la Prof. XXX a réaffirmé l'utilité du LPC chez les enfants implantés.<span class="nt">&lt;/p&gt;</span>
-            <span class="nt">&lt;/div&gt;</span>
-          <span class="nt">&lt;/div&gt;</span>
-        <span class="nt">&lt;/div&gt;</span>
-      <span class="nt">&lt;/div&gt;</span>
-    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"col-md-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#"</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">class=</span><span class="s">"btn btn-primary btn-xs"</span><span class="nt">&gt;</span>Contactez-nous<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 </pre></div></div></div><div class="cortana-content">
@@ -1053,6 +1043,22 @@
               "path": "a_capella_-_basic_page.html#a-basic-page"
               },
             
+              
+              
+              {
+              "title": "Full Display",
+              "breadcrumb": "A Capella - Basic Page > Full Display",
+              "path": "a_capella_-_basic_page.html#b-basic-page"
+              },
+            
+              
+              
+              {
+              "title": "Teaser Display",
+              "breadcrumb": "A Capella - Basic Page > Teaser Display",
+              "path": "a_capella_-_basic_page.html#c-basic-page"
+              },
+            
           
         
           
@@ -1175,14 +1181,6 @@
               "title": "A Capella colors",
               "breadcrumb": "Layout - Colors > A Capella colors",
               "path": "layout_-_colors.html#b-acapella-colors"
-              },
-            
-              
-              
-              {
-              "title": "Bootflat colors",
-              "breadcrumb": "Layout - Colors > Bootflat colors",
-              "path": "layout_-_colors.html#b-bootfalt-colors"
               },
             
           
@@ -1548,6 +1546,26 @@
               
               
               {
+              "title": "Link",
+              "breadcrumb": "A Capella - Link > Link",
+              "path": "a_capella_-_link.html#a-link"
+              },
+            
+              
+              
+              {
+              "title": "Teaser Display",
+              "breadcrumb": "A Capella - Link > Teaser Display",
+              "path": "a_capella_-_link.html#b-link"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
               "title": "List group",
               "breadcrumb": "Components - List group > List group",
               "path": "components_-_list_group.html#a-list-group"
@@ -1720,9 +1738,85 @@
               
               
               {
+              "title": "Partner",
+              "breadcrumb": "A Capella - Partner > Partner",
+              "path": "a_capella_-_partner.html#a-partner"
+              },
+            
+              
+              
+              {
+              "title": "Full Display",
+              "breadcrumb": "A Capella - Partner > Full Display",
+              "path": "a_capella_-_partner.html#b-partner"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
               "title": "Popover",
               "breadcrumb": "JavaScript - Popover > Popover",
               "path": "javascript_-_popover.html#a-popover"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Project",
+              "breadcrumb": "A Capella - Project > Project",
+              "path": "a_capella_-_project.html#a-project"
+              },
+            
+              
+              
+              {
+              "title": "Teaser Display",
+              "breadcrumb": "A Capella - Project > Teaser Display",
+              "path": "a_capella_-_project.html#b-project"
+              },
+            
+              
+              
+              {
+              "title": "Full Display",
+              "breadcrumb": "A Capella - Project > Full Display",
+              "path": "a_capella_-_project.html#c-project"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Resource",
+              "breadcrumb": "A Capella - Resource > Resource",
+              "path": "a_capella_-_resource.html#a-resource"
+              },
+            
+              
+              
+              {
+              "title": "Teaser Display",
+              "breadcrumb": "A Capella - Resource > Teaser Display",
+              "path": "a_capella_-_resource.html#b-resource"
+              },
+            
+              
+              
+              {
+              "title": "Full Display",
+              "breadcrumb": "A Capella - Resource > Full Display",
+              "path": "a_capella_-_resource.html#c-resource"
               },
             
           
@@ -1936,18 +2030,6 @@
               
               
               {
-              "title": "Full Display",
-              "breadcrumb": "A Capella - Full Display > Full Display",
-              "path": "a_capella_-_full_display.html#b-basic-page"
-              },
-            
-          
-        
-          
-            
-              
-              
-              {
               "title": "Single toggle",
               "breadcrumb": "JavaScript - Buttons JS > Single toggle",
               "path": "javascript_-_buttons_js.html#b-single-toggle"
@@ -1976,9 +2058,21 @@
               
               
               {
-              "title": "Link",
-              "breadcrumb": "A Capella - Link > Link",
-              "path": "a_capella_-_link.html#link"
+              "title": "Content-banner",
+              "breadcrumb": "Components - Content-banner > Content-banner",
+              "path": "components_-_content-banner.html#content-banner"
+              },
+            
+          
+        
+          
+            
+              
+              
+              {
+              "title": "Home-banner",
+              "breadcrumb": "Components - Home-banner > Home-banner",
+              "path": "components_-_home-banner.html#home-banner"
               },
             
           
@@ -1991,30 +2085,6 @@
               "title": "Person",
               "breadcrumb": "A Capella - Person > Person",
               "path": "a_capella_-_person.html#person"
-              },
-            
-          
-        
-          
-            
-              
-              
-              {
-              "title": "Project",
-              "breadcrumb": "A Capella - Project > Project",
-              "path": "a_capella_-_project.html#project"
-              },
-            
-          
-        
-          
-            
-              
-              
-              {
-              "title": "Resource",
-              "breadcrumb": "A Capella - Resource > Resource",
-              "path": "a_capella_-_resource.html#resource"
               },
             
           
