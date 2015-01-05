@@ -46,9 +46,11 @@
  */
 
 .view-filters {
-  position: absolute;
-  top: -80px;
-  right: 15px;
+  @media only screen and (min-width: $screen-sm-min) {
+    position: absolute;
+    top: 19px;
+    right: 15px;
+  }
 }
 
 .view-header {
