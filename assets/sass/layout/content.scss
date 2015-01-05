@@ -47,9 +47,7 @@
 
 .view-filters {
   @media only screen and (min-width: $screen-sm-min) {
-    position: absolute;
-    top: 19px;
-    right: 15px;
+    margin-bottom: 20px;
   }
 }
 
