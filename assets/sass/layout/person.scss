@@ -18,3 +18,11 @@ category: A Capella - Person
 | Email | Texte | ✔ |  |
 
 */
+
+.person {
+  .media-left {
+    img {
+      max-width: 120px;
+    }
+  }
+}
