@@ -25,4 +25,11 @@ category: A Capella - Person
       max-width: 120px;
     }
   }
+  .field-label {
+    @extend strong;
+  }
+  .field-phone,
+  .field-email {
+    margin-left: 15px;
+  }
 }
