@@ -41,6 +41,8 @@ category: A Capella - Partner
 .field-partner-image a { min-height: 100px; width: 100%; display: inline-block; position: relative; }
 .field-partner-image a img { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 
+.well.partner h3 { margin-top: 0; }
+
 @font-face { font-family: 'Gotham Bold'; src: url("../fonts/Gotham-Bold.eot");
   /* IE9 Compat Modes */
   src: url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype"), url("../fonts/Gotham-Bold.svg#6a327a217ddd10461b1acdc4d224fee0") format("svg");
@@ -117,7 +119,7 @@ a:active, a:hover { outline: 0; }
 
 abbr[title] { border-bottom: 1px dotted; }
 
-b, strong { font-weight: bold; }
+b, strong, .person .field-label { font-weight: bold; }
 
 dfn { font-style: italic; }
 
@@ -5262,7 +5264,12 @@ footer hr { border-top-color: #ccc4bb; }
 .field-person { margin-bottom: 15px; }
 
 /** Space after view-filters on resources page and projects page */
+@media only screen and (min-width: 768px) { .view-filters { margin-bottom: 20px; } }
+.view-filters .views-widget-filter-field_archive_value { float: right; }
+
 .view-header { margin-bottom: 30px; }
+
+.image-content_full_width { max-width: 100%; }
 
 /*doc
 ---
@@ -5408,6 +5415,9 @@ category: A Capella - Person
 | Email | Texte | ✔ |  |
 
 */
+.person .media-left img { max-width: 120px; }
+.person .field-phone, .person .field-email { margin-left: 15px; }
+
 /*doc
 ---
 title: Project
@@ -5558,6 +5568,8 @@ category: A Capella - Partner
 */
 .field-partner-image a { min-height: 100px; width: 100%; display: inline-block; position: relative; }
 .field-partner-image a img { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+
+.well.partner h3 { margin-top: 0; }
 
 /*doc
 ---
