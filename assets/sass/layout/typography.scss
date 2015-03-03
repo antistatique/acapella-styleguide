@@ -130,6 +130,23 @@ category: Layout - Typography
 ```
 */
 
+blockquote {
+  padding-left: 0;
+  padding-right: 0;
+  div {
+    position: relative;
+    &:after {
+      content: " \”";
+      color: $gray-light;
+    }
+    &:before {
+      content: " \“";
+      color: $gray-light;
+      position: absolute;
+      left: -13px;
+    }
+  }
+}
 
 /*doc
 ---

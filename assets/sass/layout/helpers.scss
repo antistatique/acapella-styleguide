@@ -65,3 +65,16 @@
 .no-margin-top {
   margin-top: 0;
 }
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+/**
+ * Special
+ */
+hr.separator {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  border-top: 2px solid $chrome-white;
+}
