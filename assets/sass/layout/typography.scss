@@ -48,6 +48,24 @@ category: Layout - Typography
 ```
 */
 
+/*doc
+---
+title: Not-isolated paragraph
+name: b-notisolated
+category: Layout - Typography
+---
+
+```html_example
+<p class="not-isolated">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ita separantur, ut disiuncta sint, quo nihil potest esse perversius.
+</p>
+```
+*/
+.not-isolated{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 
 /*doc
 ---
